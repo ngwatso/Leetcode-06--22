@@ -13,3 +13,15 @@ class Solution:
 
 # ===============
 
+def square_digits(num):
+    
+    newNum = str(num)
+    numArr = []
+    
+    for i in newNum:
+        numArr.append(str(int(i)**2))
+        
+    return int(''.join(numArr))
+
+# ===============
+
